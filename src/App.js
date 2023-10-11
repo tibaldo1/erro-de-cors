@@ -1,10 +1,10 @@
 import React from 'react'
-import UserList from './screens/UserList'
+import MyRoutes from './routes'
 
 export default function App() {
   return (
     <div>
-      <UserList/>
+      <MyRoutes/>
     </div>
   )
 }

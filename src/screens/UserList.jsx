@@ -3,6 +3,7 @@ import EditUser from './EditUser'
 import AddUser from './AddUser'
 import './UserList.css'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 export default function UserList() {
     const [users, setUsers]=useState([]);
@@ -34,6 +35,9 @@ export default function UserList() {
             ))}
             
         </ul>
+
+        <Link to='/add'> ir para add </Link>
+
     </div>
   )
 }
